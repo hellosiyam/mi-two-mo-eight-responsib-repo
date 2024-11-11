@@ -1,0 +1,273 @@
+/* common shared style */
+body{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+.btn-primary{
+    border-radius: 5px;
+    border: none;
+    background: #FD6E0A;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 18px 36px;
+}
+.primary-color{
+    color: #FD6E0A;
+}
+main{
+
+}
+/* nav section  */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav-tittle{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+nav li{
+    list-style: none ;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* header section */
+.header{
+    background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png"), url("/images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    padding: 30px 30px 0px 200px;
+    justify-content: space-between;
+}
+
+.banner-content{
+    align-items: center;
+    max-width: 585px;;
+}
+
+.grettings{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.tittle{    
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.tittle-description{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+/* about section  */
+
+main {
+    padding: 0px 200px;
+}
+section{
+    margin-top: 130px;
+}
+.about{
+    margin: 130px 0px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 80px 160px;
+
+}
+
+.section-tittle{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section-desription{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .about-info{
+    text-align: center;
+} */
+
+.info-tittle{
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.info-description{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+/* my skills section  */
+.skill-continer{
+    display: flex;
+    gap: 24px;
+    
+}
+
+.skills{
+    padding: 32px;
+    justify-content: space-around;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-top: 30px;
+}
+
+.skills-tittle{
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.skills-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+/* my resume section  */
+.resume{
+    margin-top: 130px;
+}
+.section-tittle{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 100px;
+}
+.resume-continer{
+    display: flex;
+    gap: 50px;
+}
+
+.column-tittle{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.resume-item{
+    color: #474747;
+font-size: 25px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+
+.item-tittle{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.item-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+hr{
+    height: 1px;
+    background: #D1D1D1;
+    margin-top: 20px;
+}
+
+.download-cv{
+    margin-top: 50px;
+    margin-bottom: 100px ;
+    text-align: center;
+}
+
+/* footer section  */
+footer{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 110px;
+}
+
+.footer-colomn{
+    width: 50%;
+}
+
+.social-links a{
+    margin-left: 24px;
+}
+.contact, input[type="text"], textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border: 0px;
+    border-radius: 5px;
+    width: 100%;
+}
+.contact 
