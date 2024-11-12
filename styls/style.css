@@ -19,15 +19,16 @@ body{
 .primary-color{
     color: #FD6E0A;
 }
-main{
+/* main{
 
-}
+} */
 /* nav section  */
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 200px;
+    padding: left 200px;
+    /* margin: 0px 200px; */
 }
 nav > ul{
     display: flex;
@@ -100,13 +101,13 @@ nav a{
 /* about section  */
 
 main {
-    padding: 0px 200px;
+    /* padding: 0px 200px; */
 }
 section{
-    margin-top: 130px;
+    margin: 60px, 120px;
 }
 .about{
-    margin: 130px 0px;
+    margin: 120px;
     border-radius: 10px;
     background: #FFF8F3;
     padding: 80px 160px;
@@ -127,6 +128,7 @@ section{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    margin-top: 16px;
 }
 
 .about-info-container{
@@ -154,14 +156,18 @@ section{
 }
 
 /* my skills section  */
+.my-skills{
+    padding: 60px 140px;
+}
 .skill-continer{
     display: flex;
     gap: 24px;
+    /* padding: 200px; */
     
 }
 
 .skills{
-    padding: 32px;
+    padding: 16px;
     justify-content: space-around;
     border-radius: 5px;
     background: #FFF;
@@ -171,8 +177,8 @@ section{
 
 .skills-tittle{
     color: #181818;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 600;
     line-height: normal;
     margin-top: 0;
     margin-bottom: 30px;
@@ -189,18 +195,20 @@ section{
 
 /* my resume section  */
 .resume{
-    margin-top: 130px;
+    /* margin-top: 130px; */
+    padding:60px 200px;
 }
 .section-tittle{
     color: #181818;
     font-size: 35px;
     font-weight: 700;
     line-height: normal;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 .resume-continer{
     display: flex;
     gap: 50px;
+    /* padding: 200px; */
 }
 
 .column-tittle{
@@ -241,7 +249,7 @@ hr{
 
 .download-cv{
     margin-top: 50px;
-    margin-bottom: 100px ;
+    margin-bottom: 50px ;
     text-align: center;
 }
 
@@ -270,4 +278,77 @@ footer{
     border-radius: 5px;
     width: 100%;
 }
-.contact 
+/* .contact  */
+.hide{
+    display: none;
+}
+
+/* Responsive  */
+
+@media screen and (max-width:576px) {
+    .skill-continer, .resume-continer, footer{
+        flex-direction: column;
+        gap: 4px;
+        margin: 4px;
+        padding: 10px;
+    }
+    .my-skills{
+        padding: 10px;
+    }
+    .resume{
+        padding: 10px;
+    }
+    .footer, .about{
+        padding: 10px;
+    }
+    .footer-colomn {
+        width: 100%;
+    }
+    .contact, input[type="text"], textarea{
+        /* padding: 16px; */
+        width: 80%;
+    }
+    .contact input, textarea{
+        padding: 16px;
+    }
+    .about{
+        margin: 0px;
+        padding: 10px;
+    }
+    .about{
+        margin: 0px;
+    }
+    .about-info-container{
+        flex-direction: column;
+        text-align: center;
+        
+        /* padding: 10px; */
+    }
+    .header{
+        background-image: none;
+    } 
+    .banner{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .banner img{
+        width: 100%;
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .btn-primary{
+        display: block;
+        margin-top: 5px;
+        /* width: 100%; */
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav > ul{
+        flex-direction: column;
+    }
+    ul{
+        padding: 0px;
+    }
+}
